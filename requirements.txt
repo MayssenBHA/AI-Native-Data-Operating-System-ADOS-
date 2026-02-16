@@ -1,0 +1,31 @@
+# AI-Native Data Operating System (ADOS) - Dependencies
+
+# Core Data & ML
+pandas==2.2.0
+numpy==1.26.3
+faker==22.6.0
+
+# Query Engine
+duckdb==0.10.0
+
+# Knowledge Graph
+networkx==3.2.1
+# neo4j==5.16.0  # Optionnel si Docker disponible
+
+# LLM & Agent Framework
+langchain==0.1.6
+langchain-openai==0.0.5
+langchain-community==0.0.16
+langgraph==0.0.20
+
+# Interface
+chainlit==1.0.200
+streamlit==1.31.0
+
+# Data Generation & Validation
+pyarrow==15.0.0  # Pour Parquet
+pydantic==2.5.3
+
+# Utilities
+python-dotenv==1.0.1
+colorama==0.4.6
